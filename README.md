@@ -1,39 +1,27 @@
-## DDInter - Drug Drug Interaction Website
+## Drug Interaction Checker Website
 
-### Description
+### Overview
 
-This Next.js project website is designed to help users find the interaction between drugs by providing information about the medications they are taking. You can find the website link in About section of the github repo or just click [here](https://ddinter-main.vercel.app/). In order to fill the DB, I used python version of mongoDB client from which I read the data csvs, made dataframes and then uploaded the entries to mongoDB.
+This project is a Next.js-based website designed to help users identify potential interactions between medications. By entering the names of the drugs you're taking, the site provides detailed information about possible interactions. The database was populated using MongoDB, with data uploaded via a Python script that processed CSV files into dataframes and then inserted them into the database.
 
 ### Getting Started
 
-To get started, clone the project repository and run `npm install` in the root directory to install all dependencies. Then run `npm run dev` to start the development server. The website will be available at `http://localhost:3000.`
+To begin, clone the repository and navigate to the root directory. Run `npm install` to install all necessary dependencies. Once the setup is complete, you can start the development server using `npm run dev`. The site will be accessible at `http://localhost:3001`.
 
-### Technology Used
-- Nextjs
+### Technologies Used
+- Next.js
 - Bootstrap 5
 - MongoDB
 - Formik
 - Python
 
-### Usage
-To use the Drug Interaction Checker, simply add the name of the medications you are taking using the input field and click "Check Interactions". The website will then display a list of potential drug interactions, along with information about the severity of the interaction.
+### How to Use
+
+To check for drug interactions, simply input the names of the medications you're taking in the provided field and click "Check Interactions". The site will generate a list of potential interactions along with details on the severity of each interaction.
 
 ### Data Sources
 - [DDInter](http://ddinter.scbdd.com/) database.
 
-### Contributing
-If you would like to contribute to this project, please feel free to fork the repository and submit a pull request with your changes. I welcome contributions from anyone who is interested in improving the website.
+### Acknowledgments
 
-### License
-This project is licensed under the MIT License. Feel free to use it however you like.
-
-### Note
-The results of interactions are based on the current knowledge and some interactions that do exist may have not been identified. Information provided here is for reference and researches only, not any medical advice.
-
-### Example to view all interactions:
-- Aluminum hydroxide
-- Dolutegravir
-- Aprepitant
-- Abacavir
-- Orlistat
-- Dexamethasone
+This project was inspired by the work of [Hitesh](https://github.com/hitesh19426) on GitHub. Special thanks for the guidance and inspiration.
